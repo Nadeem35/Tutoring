@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -87,6 +88,7 @@
       }
 
       @keyframes float {
+
         0%,
         100% {
           transform: translateY(0) rotate(0deg);
@@ -111,11 +113,9 @@
         height: 130px;
         top: 18%;
         left: -35px;
-        background: radial-gradient(
-          circle at 30% 30%,
-          rgba(53, 214, 231, 0.65),
-          rgba(53, 214, 231, 0)
-        );
+        background: radial-gradient(circle at 30% 30%,
+            rgba(53, 214, 231, 0.65),
+            rgba(53, 214, 231, 0));
       }
 
       .orb-2 {
@@ -123,11 +123,9 @@
         height: 180px;
         top: 52%;
         right: -55px;
-        background: radial-gradient(
-          circle at 35% 35%,
-          rgba(255, 138, 42, 0.55),
-          rgba(255, 138, 42, 0)
-        );
+        background: radial-gradient(circle at 35% 35%,
+            rgba(255, 138, 42, 0.55),
+            rgba(255, 138, 42, 0));
         animation-delay: -4s;
       }
 
@@ -136,15 +134,14 @@
         height: 110px;
         bottom: 8%;
         left: 45%;
-        background: radial-gradient(
-          circle at 35% 35%,
-          rgba(26, 42, 79, 0.28),
-          rgba(26, 42, 79, 0)
-        );
+        background: radial-gradient(circle at 35% 35%,
+            rgba(26, 42, 79, 0.28),
+            rgba(26, 42, 79, 0));
         animation-delay: -8s;
       }
 
       @keyframes orbFloat {
+
         0%,
         100% {
           transform: translate3d(0, 0, 0) scale(1);
@@ -205,6 +202,7 @@
       }
 
       @keyframes particleFloat {
+
         0%,
         100% {
           transform: translate3d(0, 0, 0);
@@ -228,13 +226,11 @@
           linear-gradient(rgba(53, 214, 231, 0.1) 1px, transparent 1px),
           linear-gradient(90deg, rgba(53, 214, 231, 0.1) 1px, transparent 1px);
         background-size: 42px 42px;
-        mask-image: linear-gradient(
-          to bottom,
-          transparent 0%,
-          black 18%,
-          black 82%,
-          transparent 100%
-        );
+        mask-image: linear-gradient(to bottom,
+            transparent 0%,
+            black 18%,
+            black 82%,
+            transparent 100%);
       }
 
       /* =========================================================
@@ -264,11 +260,9 @@
         top: 38px;
         width: 150px;
         height: 2px;
-        background: linear-gradient(
-          90deg,
-          transparent,
-          rgba(53, 214, 231, 0.8)
-        );
+        background: linear-gradient(90deg,
+            transparent,
+            rgba(53, 214, 231, 0.8));
         box-shadow: 0 0 8px rgba(53, 214, 231, 0.5);
       }
 
@@ -315,6 +309,7 @@
       }
 
       @keyframes circuitFloat {
+
         0%,
         100% {
           transform: translate3d(0, 0, 0) rotate(-8deg);
@@ -326,6 +321,7 @@
       }
 
       @keyframes nodePulse {
+
         0%,
         100% {
           transform: scale(0.7);
@@ -409,6 +405,7 @@
       }
 
       @keyframes atomFloat {
+
         0%,
         100% {
           transform: translateY(0) rotate(0deg);
@@ -436,12 +433,10 @@
         width: 18px;
         height: 18px;
         border-radius: 50%;
-        background: radial-gradient(
-          circle at 30% 25%,
-          #fff,
-          #35d6e7 35%,
-          #1a2a4f 80%
-        );
+        background: radial-gradient(circle at 30% 25%,
+            #fff,
+            #35d6e7 35%,
+            #1a2a4f 80%);
         box-shadow: 0 0 16px rgba(53, 214, 231, 0.65);
       }
 
@@ -489,6 +484,7 @@
       }
 
       @keyframes moleculeDrift {
+
         0%,
         100% {
           transform: translate3d(0, 0, 0) rotate(0);
@@ -548,11 +544,9 @@
       .synapse {
         position: absolute;
         height: 1px;
-        background: linear-gradient(
-          90deg,
-          rgba(53, 214, 231, 0.1),
-          rgba(53, 214, 231, 0.9)
-        );
+        background: linear-gradient(90deg,
+            rgba(53, 214, 231, 0.1),
+            rgba(53, 214, 231, 0.9));
         transform-origin: left center;
       }
 
@@ -651,7 +645,7 @@
       }
 
       .hero,
-      .content > *,
+      .content>*,
       .footer {
         position: relative;
         z-index: 3;
@@ -682,12 +676,10 @@
         inset: -2px;
         border-radius: inherit;
         padding: 1px;
-        background: linear-gradient(
-          120deg,
-          rgba(255, 255, 255, 0.7),
-          rgba(53, 214, 231, 0.35),
-          rgba(255, 138, 42, 0.35)
-        );
+        background: linear-gradient(120deg,
+            rgba(255, 255, 255, 0.7),
+            rgba(53, 214, 231, 0.35),
+            rgba(255, 138, 42, 0.35));
         -webkit-mask:
           linear-gradient(#000 0 0) content-box,
           linear-gradient(#000 0 0);
@@ -704,12 +696,10 @@
         height: 180%;
         top: -100%;
         left: -130%;
-        background: linear-gradient(
-          115deg,
-          transparent 42%,
-          rgba(255, 255, 255, 0.14) 50%,
-          transparent 58%
-        );
+        background: linear-gradient(115deg,
+            transparent 42%,
+            rgba(255, 255, 255, 0.14) 50%,
+            transparent 58%);
         transform: rotate(8deg);
         animation: heroShine 7s ease-in-out infinite;
         pointer-events: none;
@@ -824,6 +814,7 @@
       }
 
       @keyframes iconLevitate {
+
         0%,
         100% {
           transform: translateY(0) rotateY(-4deg);
@@ -835,6 +826,7 @@
       }
 
       @keyframes ringPulse {
+
         0%,
         100% {
           transform: scale(0.96);
@@ -848,6 +840,7 @@
       }
 
       @keyframes sparkle {
+
         0%,
         100% {
           opacity: 0.35;
@@ -877,7 +870,7 @@
         box-shadow: 0 4px 15px rgba(255, 138, 42, 0.1);
       }
 
-      .academic-banner > div:first-child {
+      .academic-banner>div:first-child {
         min-width: 0;
         flex: 1 1 260px;
       }
@@ -926,12 +919,10 @@
         position: absolute;
         inset: 0;
         transform: translateX(-120%);
-        background: linear-gradient(
-          90deg,
-          transparent,
-          rgba(255, 255, 255, 0.28),
-          transparent
-        );
+        background: linear-gradient(90deg,
+            transparent,
+            rgba(255, 255, 255, 0.28),
+            transparent);
         transition: transform 0.5s ease;
       }
 
@@ -1040,11 +1031,9 @@
         inset: 0;
         z-index: 1;
         pointer-events: none;
-        background: linear-gradient(
-          135deg,
-          rgba(8, 18, 40, 0.08),
-          rgba(8, 18, 40, 0.18)
-        );
+        background: linear-gradient(135deg,
+            rgba(8, 18, 40, 0.08),
+            rgba(8, 18, 40, 0.18));
       }
 
       .subject::after {
@@ -1053,32 +1042,28 @@
         inset: 0;
         z-index: 2;
         pointer-events: none;
-        background: linear-gradient(
-          to top,
-          rgba(4, 10, 24, 0.94) 0%,
-          rgba(4, 10, 24, 0.78) 18%,
-          rgba(4, 10, 24, 0.42) 38%,
-          rgba(4, 10, 24, 0.08) 62%,
-          rgba(4, 10, 24, 0) 78%
-        );
+        background: linear-gradient(to top,
+            rgba(4, 10, 24, 0.94) 0%,
+            rgba(4, 10, 24, 0.78) 18%,
+            rgba(4, 10, 24, 0.42) 38%,
+            rgba(4, 10, 24, 0.08) 62%,
+            rgba(4, 10, 24, 0) 78%);
         transition: background 0.35s ease;
       }
 
       /* =========================================================
          SUBJECT SHINE
       ========================================================= */
-      .subject > .img-container::after {
+      .subject>.img-container::after {
         content: "";
         position: absolute;
         inset: 0;
         z-index: 2;
         pointer-events: none;
-        background: linear-gradient(
-          120deg,
-          transparent 20%,
-          rgba(255, 255, 255, 0.24) 50%,
-          transparent 80%
-        );
+        background: linear-gradient(120deg,
+            transparent 20%,
+            rgba(255, 255, 255, 0.24) 50%,
+            transparent 80%);
         transform: translateX(-130%);
         transition: transform 0.7s ease;
       }
@@ -1178,19 +1163,17 @@
         filter: saturate(1.18) contrast(1.03);
       }
 
-      .subject:hover > .img-container::after {
+      .subject:hover>.img-container::after {
         transform: translateX(130%);
       }
 
       .subject:hover::after {
-        background: linear-gradient(
-          to top,
-          rgba(2, 7, 20, 0.97) 0%,
-          rgba(2, 7, 20, 0.82) 20%,
-          rgba(2, 7, 20, 0.46) 42%,
-          rgba(2, 7, 20, 0.1) 65%,
-          rgba(2, 7, 20, 0) 82%
-        );
+        background: linear-gradient(to top,
+            rgba(2, 7, 20, 0.97) 0%,
+            rgba(2, 7, 20, 0.82) 20%,
+            rgba(2, 7, 20, 0.46) 42%,
+            rgba(2, 7, 20, 0.1) 65%,
+            rgba(2, 7, 20, 0) 82%);
       }
 
       .subject:hover span {
@@ -1236,11 +1219,9 @@
         right: -70px;
         top: -70px;
         border-radius: 50%;
-        background: radial-gradient(
-          circle,
-          rgba(53, 214, 231, 0.12),
-          transparent 65%
-        );
+        background: radial-gradient(circle,
+            rgba(53, 214, 231, 0.12),
+            transparent 65%);
         pointer-events: none;
       }
 
@@ -1315,11 +1296,9 @@
 
       .icon-back {
         transform: translateZ(-5px);
-        background: linear-gradient(
-          135deg,
-          rgba(26, 42, 79, 0.7),
-          rgba(53, 214, 231, 0.7)
-        );
+        background: linear-gradient(135deg,
+            rgba(26, 42, 79, 0.7),
+            rgba(53, 214, 231, 0.7));
         opacity: 0.55;
       }
 
@@ -1327,18 +1306,17 @@
         position: absolute;
         inset: -40%;
         z-index: 4;
-        background: linear-gradient(
-          115deg,
-          transparent 42%,
-          rgba(255, 255, 255, 0.5) 50%,
-          transparent 58%
-        );
+        background: linear-gradient(115deg,
+            transparent 42%,
+            rgba(255, 255, 255, 0.5) 50%,
+            transparent 58%);
         transform: translateX(-60%) rotate(12deg);
         animation: iconShine 4.8s ease-in-out infinite;
         pointer-events: none;
       }
 
       @keyframes iconBob {
+
         0%,
         100% {
           transform: translateY(0) rotateY(-3deg);
@@ -1350,6 +1328,7 @@
       }
 
       @keyframes iconShine {
+
         0%,
         65% {
           transform: translateX(-70%) rotate(12deg);
@@ -1474,6 +1453,7 @@
       }
 
       @keyframes buttonShine {
+
         0%,
         60% {
           left: -100px;
@@ -1486,6 +1466,7 @@
       }
 
       @keyframes ctaFloat {
+
         0%,
         100% {
           transform: translateY(0);
@@ -1519,11 +1500,9 @@
         top: 50%;
         transform: translate(-50%, -50%);
         border-radius: 50%;
-        background: radial-gradient(
-          circle,
-          rgba(53, 214, 231, 0.14),
-          transparent 68%
-        );
+        background: radial-gradient(circle,
+            rgba(53, 214, 231, 0.14),
+            transparent 68%);
         animation: footerGlow 4s ease-in-out infinite;
       }
 
@@ -1537,6 +1516,7 @@
       }
 
       @keyframes footerGlow {
+
         0%,
         100% {
           transform: translate(-50%, -50%) scale(0.8);
@@ -1769,6 +1749,7 @@
          TOUCH DEVICES
       ========================================================= */
       @media (hover: none) {
+
         .subject:hover,
         .feature:hover,
         .tag:hover {
@@ -1779,7 +1760,7 @@
           transform: none;
         }
 
-        .subject:hover > .img-container::after {
+        .subject:hover>.img-container::after {
           transform: translateX(-130%);
         }
       }
@@ -1788,6 +1769,7 @@
          REDUCED MOTION
       ========================================================= */
       @media (prefers-reduced-motion: reduce) {
+
         .circle,
         .orb,
         .particle,
@@ -1895,9 +1877,7 @@
 
         <!-- Scientific formulas -->
         <div class="science-formula formula-1">E = mc²</div>
-
         <div class="science-formula formula-2">∑ f(x) · ∆x</div>
-
         <div class="science-formula formula-3">λ = h / p</div>
       </div>
 
@@ -1917,9 +1897,7 @@
 
           <div class="hero-icon" aria-label="Education">
             <span class="hero-icon-ring"></span>
-
             <span class="hero-icon-symbol"> 🎓 </span>
-
             <span class="hero-icon-spark"> ✦ </span>
           </div>
         </div>
@@ -1928,8 +1906,7 @@
 
         <div class="academic-banner">
           <div>
-            <h3>School Boards & Entrance Prep</h3>
-
+            <h3>School Boards & Entrance Preparation</h3>
             <p>Comprehensive guidance for Classes 6th – 12th</p>
           </div>
 
@@ -1957,7 +1934,6 @@
             <div class="img-container">
               <img src="img/neet.webp" alt="NEET" />
             </div>
-
             <span>NEET</span>
           </div>
 
@@ -1967,7 +1943,6 @@
             <div class="img-container">
               <img src="img/engineering.webp" alt="IIT JEE" />
             </div>
-
             <span>IIT - JEE</span>
           </div>
 
@@ -1976,17 +1951,13 @@
             <div class="img-container">
               <img src="img/computer.webp" alt="Computer Science" />
             </div>
-
             <span>Computer</span>
           </div>
 
           <!-- PHYSICS -->
           <div class="subject">
             <div class="img-container">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZoBL4t85ut_uWddHdnWyO83VcCWy1nUZWAX0IjsBcR8SAHMva4yB_KM&s=10"
-                alt="Computer Science"
-              />
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZoBL4t85ut_uWddHdnWyO83VcCWy1nUZWAX0IjsBcR8SAHMva4yB_KM&s=10" alt="Computer Science" />
             </div>
             <span>Physics</span>
           </div>
@@ -1994,9 +1965,7 @@
           <!-- CHEMISTRY -->
           <div class="subject">
             <div class="img-container">
-              <img
-                src="https://i.pinimg.com/736x/ce/f9/15/cef915e90b2ba8ccac50ef44a1b8b09c.jpg"
-              />
+              <img src="https://i.pinimg.com/736x/ce/f9/15/cef915e90b2ba8ccac50ef44a1b8b09c.jpg" />
             </div>
             <span>Chemistry</span>
           </div>
@@ -2004,9 +1973,7 @@
           <!-- BIOLOGY -->
           <div class="subject">
             <div class="img-container">
-              <img
-                src="https://static.vecteezy.com/system/resources/thumbnails/027/013/992/small/biology-doodle-set-collection-of-hand-drawn-elements-science-biology-circle-shape-illustration-isolated-on-a-white-background-vector.jpg"
-              />
+              <img src="https://static.vecteezy.com/system/resources/thumbnails/027/013/992/small/biology-doodle-set-collection-of-hand-drawn-elements-science-biology-circle-shape-illustration-isolated-on-a-white-background-vector.jpg" />
             </div>
             <span>Biology</span>
           </div>
@@ -2014,9 +1981,7 @@
           <!-- MATH -->
           <div class="subject">
             <div class="img-container">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRParoU_MUE0D0VF-8vha1XY48voC4_Te39At1jF7L25R5xrXBNWoqJbh8&s=10"
-              />
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRParoU_MUE0D0VF-8vha1XY48voC4_Te39At1jF7L25R5xrXBNWoqJbh8&s=10" />
             </div>
             <span>Math</span>
           </div>
@@ -2024,10 +1989,7 @@
           <!-- AI -->
           <div class="subject">
             <div class="img-container">
-              <img
-                src="https://www.technewsworld.com/wp-content/uploads/sites/3/2025/02/humanoid-robot-programming-code.jpg"
-                alt="Artificial Intelligence"
-              />
+              <img src="https://www.technewsworld.com/wp-content/uploads/sites/3/2025/02/humanoid-robot-programming-code.jpg" alt="Artificial Intelligence" />
             </div>
             <span>Artificial Intelligence</span>
           </div>
@@ -2051,9 +2013,7 @@
           <!-- AI -->
           <div class="subject">
             <div class="img-container" style="background-size: cover">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOU8In5xc8W4AOMNCAHFdGN194BBwqM0AH_6fq4ZRGnQ&s=10"
-              />
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOU8In5xc8W4AOMNCAHFdGN194BBwqM0AH_6fq4ZRGnQ&s=10" />
             </div>
             <span>Programming</span>
           </div>
@@ -2071,11 +2031,10 @@
             <div class="img-container">
               <img src="img/web-dev.webp" alt="Web Development" />
             </div>
-            <span>Wed Development</span>
+            <span>Web Development</span>
           </div>
 
           <!-- NETWORKING -->
-
           <!-- <div class="subject">
             <div class="img-container">
               <img src="img/networking.webp" alt="Computer Networking" />
@@ -2093,111 +2052,86 @@
           <div class="feature">
             <div class="icon" aria-label="Experience">
               <span class="icon-face icon-front"> 📅 </span>
-
               <span class="icon-face icon-back"></span>
-
               <span class="icon-shine"></span>
             </div>
 
             <div>
               <h3>4+ Years Experience</h3>
-
               <p>Proven academic & professional success rates.</p>
             </div>
           </div>
 
           <!-- PERSONALIZED -->
-
           <div class="feature">
             <div class="icon" aria-label="Personalized">
               <span class="icon-face icon-front"> 👤 </span>
-
               <span class="icon-face icon-back"></span>
-
               <span class="icon-shine"></span>
             </div>
 
             <div>
               <h3>Personalized Attention</h3>
-
               <p>Tailored 1-on-1 home or interactive group sessions.</p>
             </div>
           </div>
 
           <!-- LEARNING -->
-
           <div class="feature">
             <div class="icon" aria-label="Learning">
               <span class="icon-face icon-front"> 🧠 </span>
-
               <span class="icon-face icon-back"></span>
-
               <span class="icon-shine"></span>
             </div>
 
             <div>
               <h3>Custom Learning Styles</h3>
-
               <p>Conceptual clarity designed around student pacing.</p>
             </div>
           </div>
 
           <!-- RESULTS -->
-
           <div class="feature">
             <div class="icon" aria-label="Results">
               <span class="icon-face icon-front"> 🎯 </span>
-
               <span class="icon-face icon-back"></span>
-
               <span class="icon-shine"></span>
             </div>
 
             <div>
               <h3>Result-Oriented Blueprint</h3>
-
               <p>Rigorous test series, mock exams, and revision keys.</p>
             </div>
           </div>
         </div>
 
         <!-- AVAILABILITY -->
-
         <div class="availability">
           <div class="badge online">
             <span class="status-dot"></span>
-
             🌐 Available Online
           </div>
 
           <div class="badge offline">
             <span class="status-dot"></span>
-
             🏠 Available Offline
           </div>
         </div>
 
         <!-- CONTACT -->
-
         <div class="contact-section">
           <a href="tel:+918595729388" class="call-btn"> 📞 Call Now </a>
-
-          <a
-            href="https://wa.me/918595729388"
-            class="whatsapp-btn"
-            target="_blank"
-            rel="noopener"
-          >
+          <a href="https://wa.me/918595729388" class="whatsapp-btn" target="_blank" rel="noopener">
             💬 WhatsApp Now
           </a>
         </div>
 
         <!-- FOOTER -->
-
         <div class="footer">
           <h2>Direct Admissions: +91 8595729388</h2>
         </div>
       </div>
     </div>
   </body>
+
 </html>
